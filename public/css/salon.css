@@ -1,0 +1,112 @@
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+    background-color: rgba(122, 122, 122, 0.1);
+}
+
+.card-body {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.card-img-top {
+    padding: 10px;
+    background-color: rgba(122, 122, 122, .2);
+}
+
+.hover:hover {
+    opacity: 50%;
+}
+
+.form-style {
+    margin-top: 5%;
+    width: 70%;
+    color: pink;
+    background-color: white;
+    border-color: pink;
+}
+
+.search-title-margin {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    padding-left: 10%;
+}
+
+.pagination>li>a,
+.pagination>li>span {
+    color: pink;
+}
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover {
+    background-color: pink;
+}
+
+.page-item.active .page-link {
+    color: red;
+}
+
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+.pagination {
+    margin-top: 1%;
+    margin-bottom: 7%;
+}
+
+.fade-in {
+    -webkit-animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+.demotext {
+    color: white;
+    text-shadow: 3px 3px 6px pink;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@-webkit-keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+    font-style: italic;
+}
+
+.contact {
+    text-align: center;
+    font-style: italic;
+}
+
+.contact-margin {
+    display: inline;
+    margin-right: 10px;
+}

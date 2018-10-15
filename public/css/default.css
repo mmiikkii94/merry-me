@@ -1,0 +1,35 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url("../storage/images/background.png");
+    padding-top: 10%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.collapsible {
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    text-align: center;
+}
+
+.colaps {
+    text-align: center;
+}
+
+.active,
+.collapsible:hover {
+    background-color: pink;
+}
+
+
+body {
+    padding-bottom: 50px;
+    min-height: 100%;
+    position: relative;
+}
