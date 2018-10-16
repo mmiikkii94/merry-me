@@ -16,6 +16,8 @@
     
 @include('navigation')
 
+
+<!-- Images for carousel -->
 <div class="top-margin">
     <div class="slide-margin">
         <div class="slide" >
@@ -28,6 +30,7 @@
     </div>
 </div>
 
+<!-- Quote with animation -->
 <div class="quote typewriter">
     “You don’t marry the person you can live with … 
     <br>
@@ -37,6 +40,8 @@
 </div>
     
 <h2 class="firstTitle">How many things do you need for a wedding?</h2>
+
+<!-- Article on the left side  -->
 <div class="article1"> Almost everyone has a dream wedding plan in their head: white dress, smart tuxedo, that first dance, leaving for your honeymoon in a beautiful vintage car.
 
 <p>
@@ -46,6 +51,7 @@
 Below, you can find a checklist to help you make sure that you’ve thought about and planned for every part of your wedding: from the earrings worn by the flower girls to the ribbons on your car.
 <br>
 
+<!-- Navigation icons in the article -->
         <a href="{{ url('/salon') }} "class="article-link"> <i class="far fa-check-square"></i>&nbsp; Salon</a>
         <a href="{{ url('/music') }} "class="article-link"><i class="far fa-check-square"></i>&nbsp;Music</a>
         <a href="{{ url('/catering') }}"class="article-link"><i class="far fa-check-square"></i>&nbsp;Catering</a>
@@ -57,12 +63,13 @@ Below, you can find a checklist to help you make sure that you’ve thought abou
  </div>
 
  <div class="parallax">
-     I tako je ljubav pocela
+    <div class="parallax-text"> I tako je ljubav pocela... </div>
  </div>
 
 
 <h2 class="move-right-title">How to find a good divorce lawyer?</h2>
 
+<!-- Article on the right side -->
 <div class="article2"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est necessitatibus consequuntur fugiat in, placeat soluta consequatur? Incidunt minus iure voluptatem numquam corporis ut aliquid eum harum itaque voluptates. Dolorum, qui.
         Iusto quis quaerat similique et cupiditate blanditiis 
         Autem ut corporis minima similique in quis alias temporibus mollitia. Esse et est voluptatum animi eius temporibu
@@ -72,7 +79,7 @@ Below, you can find a checklist to help you make sure that you’ve thought abou
     </div>
 
 @include('footer')
-
+<!-- Caroousel on top of the page  -->
 <script>
     var myIndex = 0;
     carousel();
