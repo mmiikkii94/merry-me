@@ -1,4 +1,4 @@
-.aboutText {
+.about-text {
     font-size: 18px;
     background-color: rgba(255, 178, 216, 0.2);
     padding: 15px;
@@ -71,7 +71,7 @@ textarea::-webkit-input-placeholder {
    
 }
 
-.dvadeset {
+.galery-images{
 
     width: 60%;
     margin: 0;
@@ -172,7 +172,7 @@ textarea::-webkit-input-placeholder {
 }
 
 
-.we {
+.we-text {
     text-align: center;
     margin-top: 10%;
 }
@@ -181,7 +181,7 @@ textarea::-webkit-input-placeholder {
     font-size: 30px;
 }
 
-.aboutphoto {
+.about-photo {
     width: 80%;
     display: block;
     margin: 0 auto;
@@ -202,7 +202,7 @@ textarea::-webkit-input-placeholder {
     margin: 0;
 }
 
-.formMargin {
+.form-Margin {
     margin-top: 10px;
     margin-bottom: 5%;
     margin-left: 12px;
@@ -220,7 +220,7 @@ textarea::-webkit-input-placeholder {
     text-align: center;
 }
 
-.undertitle {
+.under-Stitle {
     margin: 3%;
     font-size: 20px;
 }
@@ -321,7 +321,7 @@ div.angrytext {
     z-index: 10;
 }
 
-.marginTitle {
+.margin-title {
     margin: 5%;
     text-align: center;
 }

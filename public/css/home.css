@@ -2,96 +2,101 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 30px;
-   width: 80%
+    width: 80%
 }
 
 .quote {
     text-align: center;
     font-size: 60px;
     font-family: 'Lovers Quarrel', cursive;
-    color: #c86b85;
+    color: #c86b85
 }
 
 @media only screen and (max-width:850px) {
     .quote {
-        font-size: 40px;
+        font-size: 40px
     }
 }
 
 @media only screen and (max-width:550px) {
     .quote {
-        font-size: 30px;
+        font-size: 30px
     }
 }
 
 .mySlides {
     max-height: 400px;
-    width: 100%;
-}
-.slide-margin{
-    margin-top:5%;
-    margin-bottom:5%;
-}
-.article1 {
-    background-color: pink;
-    color: white;
-    height: 120%;
-    width: 70%;
-    font-style: italic;
-}
-.far{
-    color:white;
-}
-a{
-    color:White;
-    text-decoration: underline;
+    width: 100%
 }
 
+.slide-margin {
+    margin-top: 5%;
+    margin-bottom: 5%
+}
+
+.article1 {
+    background-color: pink;
+    color: #fff;
+    height: 120%;
+    width: 70%;
+    font-style: italic
+}
+
+.far {
+    color: #fff
+}
+
+.article-link {
+    color: #fff;
+    text-decoration: underline
+}
 
 .article2 {
     background-color: pink;
-    color: white;
+    color: #fff;
     font-style: italic;
-    margin-right: 25px;
+    margin-right: 25px
 }
 
 @media only screen and (min-width:320px) {
     .article1 {
-        margin: 0px 5px 70px 0px;
+        margin: 0 5px 70px 0;
         padding: 7px;
-        width: 100%;
+        width: 100%
     }
-    .moveRight {
-        margin-left: 1%;
+
+    .move-right-title {
+        margin-left: 1%
     }
 }
 
 @media only screen and (min-width:320px) {
     .article2 {
-        margin: 10px 0px 70px 0px;
+        margin: 10px 0 70px 0;
         padding: 7px;
-        width: 100%;
+        width: 100%
     }
 }
 
 @media only screen and (min-width:850px) {
     .article1 {
-        margin: 0px  0px 70px 30px;
+        margin: 0 0 70px 30px;
         padding: 12px;
         width: 70%;
-        font-size: 17px;
+        font-size: 17px
     }
-    .moveRight {
-        margin-left: 20%;
+
+    .move-right-title {
+        margin-left: 20%
     }
 }
 
 @media only screen and (min-width:850px) {
     .article2 {
-        margin: 10px 0px 70px 20%;
+        margin: 10px 0 70px 20%;
         padding: 12px;
         width: 70%;
-        font-size: 17px;
+        font-size: 17px
     }
 }
 
@@ -99,29 +104,28 @@ a{
     overflow: hidden;
     white-space: nowrap;
     margin: 0 auto;
-    animation: typing 2s steps(30, end), blink-caret .75s step-end infinite;
+    animation: typing 2s steps(30, end), blink-caret .75s step-end infinite
 }
 
 @keyframes typing {
     from {
         width: 0
     }
+
     to {
         width: 100%
     }
 }
 
-.parallax{
-background-image: url("../storage/images/midpage.jpg");
-
-height: 300px; 
-
-
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+.parallax {
+    background-image: url(../storage/images/bride.jpg);
+    height: 300px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
 }
-.firstTitle{
-    margin-left: 2%;
+
+.firstTitle {
+    margin-left: 2%
 }
