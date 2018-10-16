@@ -43,7 +43,7 @@ bla bla bla bla bla bla bla bla blabla bla bla bla bla bla bla bla blabla bla bl
 <div class='angrytext' >Danijel & Milica</div>
 </div>
 <div class="col-sm-6">
-<img src="storage/images/aboutphoto.jpg" alt="photo of us" class="aboutphoto heartbeat">
+<img src="storage/images/aboutphoto.jpg" alt="photo of us" class="about-photo heartbeat">
 </div>
 </div>
 <h2 class="we-text">Sta mozemo da uradimo za Vas?</h2>
@@ -56,7 +56,7 @@ Ostatak teksta bla bla bla bla bla bla bla
 </div>
 <div class="gallery">
 
-	<div class="pet text-blur-out">
+	<div class="galery-position text-blur-out">
 			Mozemo pronaci savrsenu lokaciju!
 		</div>
 		<div class="galery-images">
@@ -66,10 +66,10 @@ Ostatak teksta bla bla bla bla bla bla bla
 		  <div class="galery-images">
           <img src="storage/images/about2.jpg" >
 		</div>
-		  <div class="pet text-blur-out">
+		  <div class="galery-position text-blur-out">
 		   Organizovati bend ili pjevaca po vasem ukusu!
 		</div>
-		<div class="pet text-blur-out">
+		<div class="galery-position text-blur-out">
 				Sta mislite o savrsenim fotografijama?
 			 </div>
 			<div class="galery-images">
@@ -79,7 +79,7 @@ Ostatak teksta bla bla bla bla bla bla bla
 			<div class="galery-images">
           <img src="storage/images/about4.jpg" />
 		</div>
-		<div class="pet text-blur-out">
+		<div class="galery-position text-blur-out">
 			I nesto u vezi torte bla bla!
 			</div>	
 	</div>

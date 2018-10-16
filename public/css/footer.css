@@ -3,11 +3,11 @@
     text-align: center;
     width: 100%;
     position: absolute;
-    bottom: 0;
+    bottom: 0
 }
 
 i {
-    color: black;
+    color: #000
 }
 
 .flex-container {
@@ -28,7 +28,7 @@ i {
     align-content: stretch;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
-    align-items: flex-start;
+    align-items: flex-start
 }
 
 .flex-item:nth-child(1) {
@@ -41,7 +41,7 @@ i {
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0 10px 10px
 }
 
 .flex-item:nth-child(2) {
@@ -54,7 +54,7 @@ i {
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
-    margin: 10px 0px 10px 10px;
+    margin: 10px 0 10px 10px
 }
 
 .flex-item:nth-child(3) {
@@ -67,5 +67,5 @@ i {
     -webkit-align-self: auto;
     -ms-flex-item-align: auto;
     align-self: auto;
-    margin: 10px 10px 10px 5px;
+    margin: 10px 10px 10px 5px
 }

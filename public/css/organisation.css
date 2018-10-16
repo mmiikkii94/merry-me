@@ -1,84 +1,78 @@
 .about-text {
     font-size: 18px;
-    background-color: rgba(255, 178, 216, 0.2);
+    background-color: rgba(255, 178, 216, .2);
     padding: 15px;
-    font-style: italic;
+    font-style: italic
 }
 
 input {
     width: 400px;
-    padding: 0 16px;
+    padding: 0 16px
 }
 
 input,
 input::-webkit-input-placeholder {
     font-size: 16px;
-    line-height: 3;
+    line-height: 3
 }
 
 textarea {
     width: 200px;
-    padding: 0 16px;
+    padding: 0 16px
 }
 
 textarea,
 textarea::-webkit-input-placeholder {
-    font-size: 16px;
-
+    font-size: 16px
 }
 
 .text-blur-out {
-    -webkit-animation: text-blur-out 2.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
-    animation: text-blur-out 2.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) infinite both;
+    -webkit-animation: text-blur-out 2.5s cubic-bezier(.55, .085, .68, .53) infinite both;
+    animation: text-blur-out 2.5s cubic-bezier(.55, .085, .68, .53) infinite both
 }
-
 
 @-webkit-keyframes text-blur-out {
     0% {
-        -webkit-filter: blur(0.01);
-        filter: blur(0.01);
+        -webkit-filter: blur(.01);
+        filter: blur(.01)
     }
 
     100% {
-        -webkit-filter: blur(12px) opacity(0%);
-        filter: blur(12px) opacity(0%);
+        -webkit-filter: blur(12px) opacity(0);
+        filter: blur(12px) opacity(0)
     }
 }
 
 @keyframes text-blur-out {
     0% {
-        -webkit-filter: blur(0.01);
-        filter: blur(0.01);
+        -webkit-filter: blur(.01);
+        filter: blur(.01)
     }
 
     100% {
-        -webkit-filter: blur(12px) opacity(0%);
-        filter: blur(12px) opacity(0%);
+        -webkit-filter: blur(12px) opacity(0);
+        filter: blur(12px) opacity(0)
     }
 }
 
-.pet {
+.galery-position {
     font-size: 3rem;
     width: 30%;
-    display: inline-block;
+    display: inline-block
 }
 
 @media only screen and (max-width:656px) {
-    .pet {
-        font-size: 2rem;
+    .galery-position {
+        font-size: 2rem
     }
-
-   
 }
 
-.galery-images{
-
+.galery-images {
     width: 60%;
     margin: 0;
     display: inline-block;
-    padding: 0;
+    padding: 0
 }
-
 
 @-webkit-keyframes heartbeat {
     from {
@@ -87,41 +81,41 @@ textarea::-webkit-input-placeholder {
         -webkit-transform-origin: center center;
         transform-origin: center center;
         -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
+        animation-timing-function: ease-out
     }
 
     10% {
-        -webkit-transform: scale(0.91);
-        transform: scale(0.91);
+        -webkit-transform: scale(.91);
+        transform: scale(.91);
         -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
+        animation-timing-function: ease-in
     }
 
     17% {
-        -webkit-transform: scale(0.98);
-        transform: scale(0.98);
+        -webkit-transform: scale(.98);
+        transform: scale(.98);
         -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
+        animation-timing-function: ease-out
     }
 
     33% {
-        -webkit-transform: scale(0.87);
-        transform: scale(0.87);
+        -webkit-transform: scale(.87);
+        transform: scale(.87);
         -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
+        animation-timing-function: ease-in
     }
 
     45% {
         -webkit-transform: scale(1);
         transform: scale(1);
         -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
+        animation-timing-function: ease-out
     }
 }
 
 .heartbeat {
     -webkit-animation: heartbeat 5s ease-in-out 1s infinite both;
-    animation: heartbeat 5s ease-in-out 1s infinite both;
+    animation: heartbeat 5s ease-in-out 1s infinite both
 }
 
 .map-canvas {
@@ -129,7 +123,7 @@ textarea::-webkit-input-placeholder {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 5%;
+    margin-bottom: 5%
 }
 
 @keyframes heartbeat {
@@ -139,106 +133,90 @@ textarea::-webkit-input-placeholder {
         -webkit-transform-origin: center center;
         transform-origin: center center;
         -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
+        animation-timing-function: ease-out
     }
 
     10% {
-        -webkit-transform: scale(0.91);
-        transform: scale(0.91);
+        -webkit-transform: scale(.91);
+        transform: scale(.91);
         -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
+        animation-timing-function: ease-in
     }
 
     17% {
-        -webkit-transform: scale(0.98);
-        transform: scale(0.98);
+        -webkit-transform: scale(.98);
+        transform: scale(.98);
         -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
+        animation-timing-function: ease-out
     }
 
     33% {
-        -webkit-transform: scale(0.87);
-        transform: scale(0.87);
+        -webkit-transform: scale(.87);
+        transform: scale(.87);
         -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
+        animation-timing-function: ease-in
     }
 
     45% {
         -webkit-transform: scale(1);
         transform: scale(1);
         -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
+        animation-timing-function: ease-out
     }
 }
 
-
 .we-text {
     text-align: center;
-    margin-top: 10%;
+    margin-top: 10%
 }
 
 .a {
-    font-size: 30px;
+    font-size: 30px
 }
 
 .about-photo {
     width: 80%;
     display: block;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .gallery {
     text-align: center;
     width: 100%;
-    margin: 2% auto;
-}
-
-.nopadding {
-    padding: 0 !important;
-    margin: 0 !important;
+    margin: 2% auto
 }
 
 .galery-margin {
-    margin: 0;
+    margin: 0
 }
 
 .form-Margin {
     margin-top: 10px;
     margin-bottom: 5%;
     margin-left: 12px;
-    margin-right: 12px;
-}
-
-.row-no-padding {
-    margin-left: 0;
-    margin-right: 0;
+    margin-right: 12px
 }
 
 .under {
     font-size: 25px;
     margin: 3%;
-    text-align: center;
-}
-
-.under-Stitle {
-    margin: 3%;
-    font-size: 20px;
+    text-align: center
 }
 
 div.angrytext {
     font-size: 350%;
-    font-weight: bold;
+    font-weight: 700;
     color: pink;
     width: 90%;
     margin: 3% auto;
     font-family: 'The Girl Next Door', cursive;
     -webkit-animation: bounce-in 1s ease 0s 1 normal;
-    animation: bounce-in 1s ease 0s 1 normal;
+    animation: bounce-in 1s ease 0s 1 normal
 }
 
 @media only screen and (max-width:656px) {
     div.angrytext {
-        font-size: 200%;
+        font-size: 200%
     }
 }
 
@@ -246,66 +224,58 @@ div.angrytext {
     0% {
         opacity: 0;
         -webkit-transform: scale(.3);
-        transform: scale(.3);
+        transform: scale(.3)
     }
 
     50% {
         opacity: 1;
-        -webkit-transform: scale(1.0);
-        transform: scale(1.0);
+        -webkit-transform: scale(1);
+        transform: scale(1)
     }
 
     70% {
-        -webkit-transform: scale(0.9);
-        transform: scale(0.9);
+        -webkit-transform: scale(.9);
+        transform: scale(.9)
     }
 
     100% {
         -webkit-transform: scale(1);
-        transform: scale(1);
+        transform: scale(1)
     }
 }
 
 @keyframes bounce-in {
     0% {
         opacity: 0;
-        transform: scale(.3);
+        transform: scale(.3)
     }
 
     50% {
         opacity: 1;
-        transform: scale(1.0);
+        transform: scale(1)
     }
 
     70% {
-        transform: scale(0.9);
+        transform: scale(.9)
     }
 
     100% {
-        transform: scale(1);
+        transform: scale(1)
     }
 }
-
 
 .gallery img {
     width: 100%;
     max-height: 300px;
-    -webkit-transition-duration: 0.6s;
-    /*Webkit: animation duration*/
-    -moz-transition-duration: 0.6s;
-    /*Mozilla: animation duration*/
-    -ms-transition-duration: 0.6s;
-    -o-transition-duration: 0.6s;
-    transition-duration: 0.6s;
-    /*Opera: animation duration*/
-    opacity: 0.6;
-    /*initial opacity of the image*/
+    -webkit-transition-duration: .6s;
+    -moz-transition-duration: .6s;
+    -ms-transition-duration: .6s;
+    -o-transition-duration: .6s;
+    transition-duration: .6s;
+    opacity: .6;
     z-index: 1;
-    /*place non-hover images behind the hover image*/
     margin: 0;
-    /*remove default margin for images*/
-    position: relative;
-    /*solve the problem with z-index in Chrome*/
+    position: relative
 }
 
 .gallery img:hover {
@@ -314,14 +284,14 @@ div.angrytext {
     -o-transform: scale(1.7);
     -ms-transform: scale(1.7);
     transform: scale(1.7);
-    box-shadow: 0px 0px 25px gray;
-    -webkit-box-shadow: 0px 0px 25px gray;
-    -moz-box-shadow: 0px 0px 25px gray;
+    box-shadow: 0 0 25px gray;
+    -webkit-box-shadow: 0 0 25px gray;
+    -moz-box-shadow: 0 0 25px gray;
     opacity: 1;
-    z-index: 10;
+    z-index: 10
 }
 
 .margin-title {
     margin: 5%;
-    text-align: center;
+    text-align: center
 }

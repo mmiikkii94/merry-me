@@ -1,6 +1,5 @@
-
 .margin {
-    transform: translateY(-53%);
+    transform: translateY(-53%)
 }
 
 .logo {
@@ -8,40 +7,39 @@
     margin: 0 auto;
     max-width: 25%;
     margin-bottom: -9%;
-    overflow: visible;
+    overflow: visible
 }
 
 ul {
     list-style: none;
     padding: 0;
     text-align: center;
-    color: white;
+    color: #fff
 }
 
 li {
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    margin-right: 10px;
+    margin-right: 10px
 }
 
 li a {
     display: block;
-    color: white;
-    text-decoration: none;
+    color: #fff;
+    text-decoration: none
 }
 
 li a:hover {
-    text-decoration: none;
+    text-decoration: none
 }
 
 .header {
-    background-color: #e6a4b4;
-   
-  
+    background-color: #e6a4b4
 }
 
-@media only screen and (min-width:880px){
-   li{
-       font-size: 23px;
-   }}
+@media only screen and (min-width:880px) {
+    li {
+        font-size: 23px
+    }
+}
