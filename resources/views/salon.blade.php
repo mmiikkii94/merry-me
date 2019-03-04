@@ -30,10 +30,10 @@
 
 <div class="row search-title-margin">
     <div class="col-sm-6 page-title">
-           <div class="demotext"> Here  you can find a perfect wedding salon for you: </div></div>
+           <div class="demotext"> Ovdje mozete pronaci savrsenu salu za vjencanje: </div></div>
 <div class="col-sm-6">
 {{Form::open(['method'=> 'GET'] )}}
-{{Form::input('search', 'q', null, ['placeholder' => 'Search to find specific place...', 'class' => 'form-style'],array('class' =>"search-style" )) }}
+{{Form::input('search', 'q', null, ['placeholder' => 'Unesite grad', 'class' => 'form-style'],array('class' =>"search-style" )) }}
 {{ Form::close()}}
 </div>
 </div>
@@ -76,7 +76,7 @@
       
     </div>
 <div class="colaps">
-    <button class="collapsible">Show Comments</button>
+    <button class="collapsible">Prikazi komentare</button>
 
 <div class="content">
   
